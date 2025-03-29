@@ -1,11 +1,11 @@
-Abstract Factory
+# Abstract Factory
 Implementation of the GoF Creational Pattern Abstract Factory
 
 The Abstract Factory pattern is an evolution of the Factory Method, allowing the creation of families of related objects without specifying their concrete classes.
 
 We will modify the notification example to use the Abstract Factory, enabling the creation of distinct factories for different notification channels.
 
-Project Structure:
+## Project Structure:
 Notification Interface → Defines notifyUser().
 
 Concrete Implementations (EmailNotification, SMSNotification, PushNotification) → Concrete notification types.
@@ -18,14 +18,14 @@ Main Class → Demonstrates the use of Abstract Factory.
 
 This approach is useful when there is a need to create families of related objects.
 
-Abstract Factory
+# Abstract Factory
 Implementação do padrão GoF Criacional Abstract Factory
 
 O Abstract Factory é uma evolução do Factory Method, permitindo a criação de famílias de objetos relacionados sem especificar suas classes concretas.
 
 Vamos modificar o exemplo de notificações para usar Abstract Factory, permitindo criar fábricas distintas para diferentes canais de notificação.
 
-Estrutura do Projeto:
+## Estrutura do Projeto:
 Interface Notification → Define notifyUser().
 
 Implementações (EmailNotification, SMSNotification, PushNotification) → Notificações concretas.
